@@ -49,10 +49,6 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::post('admin/presensi/edit', 'PresenceController@edit');
     Route::patch('admin/presensi/edit/{presence}', 'PresenceController@update');
 
-    Route::get('admin/komplain', 'ComplaintController@indexAdmin');
-    Route::get('admin/komplain/{complaint}/respon', 'ResponseController@show');
-    Route::post('admin/respon/{complaint}', 'ResponseController@store');
-
     Route::get('admin/penambahan-potongan', 'AllowanceController@index');
     Route::post('admin/penambahan', 'AllowanceController@storePenambahan');
     Route::delete('admin/penambahan-potongan/{allowance}', 'AllowanceController@destroy');
@@ -78,10 +74,6 @@ Route::middleware(['auth', 'user'])->group(function () {
     Route::post('presensi', 'PresenceController@postPresensi');
     Route::get('presensi/rekap-presensi', 'PresenceController@rekapPresensi');
     Route::post('presensi/rekap-presensi', 'PresenceController@rekapPresensiSearch');
-
-    Route::get('komplain', 'ComplaintController@indexUser');
-    Route::post('komplain', 'ComplaintController@postKomplainUser');
-    Route::get('komplain/{complaint}', 'ComplaintController@show');
 
     Route::get('penggajian', 'PayrollHistoryController@indexUser');
     Route::post('penggajian', 'PayrollHistoryController@indexPostUser');
