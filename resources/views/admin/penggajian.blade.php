@@ -138,11 +138,10 @@
                                                     <h2 class="text-left text-dark font-weight-bold mb-0 mt-1">
                                                         Emerald
                                                     </h2>
-                                                    <h4 class="text-left text-dark">learn code with
-                                                        some cake</h4>
+                                                    <h4 class="text-left text-dark">simple and elegant</h4>
                                                 </div>
                                                 <div class="col-3 pr-4">
-                                                    <img src="{{ asset('img/logoWarna.png') }}" height="80px;">
+                                                    <img src="{{ asset('img/logoWarna.png') }}" height="50" class="mt-3">
                                                 </div>
                                             </div>
                                             <hr class="sidebar-divider d-none d-md-block">
@@ -346,11 +345,10 @@
                                                     <h2 class="text-left text-dark font-weight-bold mb-0 mt-1">
                                                         Emerald
                                                     </h2>
-                                                    <h4 class="text-left text-dark">learn code with
-                                                        some cake</h4>
+                                                    <h4 class="text-left text-dark">Simple and Elegant</h4>
                                                 </div>
                                                 <div class="col-3 pr-4">
-                                                    <img src="{{ asset('img/logoWarna.png') }}" height="80px;">
+                                                    <img src="{{ asset('img/logoWarna.png') }}" height="50" class="mt-3">
                                                 </div>
                                             </div>
                                             <hr class="sidebar-divider d-none d-md-block">
