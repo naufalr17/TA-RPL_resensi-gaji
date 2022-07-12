@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Complaint;
+
 use App\Employee;
 use App\Presence;
 use Carbon\Carbon;
@@ -59,7 +59,7 @@ class EmployeeController extends Controller
                 }
             }
         }
-        $komplen = Complaint::where('created_at', '<=', Carbon::now()->toDateTimeString())->where('created_at', '>=', Carbon::now()->startOfDay())->get();
+        // $komplen = Complaint::where('created_at', '<=', Carbon::now()->toDateTimeString())->where('created_at', '>=', Carbon::now()->startOfDay())->get();
         $absen = Presence::where('created_at', '<=', Carbon::now()->toDateTimeString())->where('created_at', '>=', Carbon::now()->startOfDay())->where('status', 'a')->get();
         $terlambat = Presence::where('created_at', '<=', Carbon::now()->toDateTimeString())->where('created_at', '>=', Carbon::now()->startOfDay())->where('status', 't')->get();
 

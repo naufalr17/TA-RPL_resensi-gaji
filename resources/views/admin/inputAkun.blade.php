@@ -31,7 +31,7 @@
             @csrf
             <div class="form-group">
               <label for="nip">NIP</label>
-              <input type="text" maxlength="8" class="form-control @error('nip') is-invalid @enderror" id="nip"
+              <input type="text" maxlength="15" class="form-control @error('nip') is-invalid @enderror" id="nip"
                 name="nip" value="{{ old('nip') }}">
               @error('nip')
               <div class="invalid-feedback">

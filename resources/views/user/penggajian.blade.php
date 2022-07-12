@@ -23,8 +23,8 @@
     <div class="row align-middle justify-content-between mx-3">
         <div class="col-6">
             <!-- Page Heading -->
-            <h1 class="h3 mb-2 text-gray-800">Data Penggajian Karyawan CakeCode</h1>
-            <p class="mb-4">Seluruh data Penggajian karyawan yang ada di Database Aplikasi Penggajian CakeCode</p>
+            <h1 class="h3 mb-2 text-gray-800">Data Gaji Karyawan </h1>
+            <p class="mb-4">Seluruh data Penggajian karyawan yang ada di Database Aplikasi Gaji Emerald</p>
         </div>
         {{-- <td><a href="#" class="status" data-type="select" data-pk="1" data-value="1" data-url="{{ url('api/admin/active') }}"
         data-title="Select status"></a></td> --}}
@@ -32,7 +32,7 @@
             <form action={{ url('penggajian') }} method="post">
                 <div class="input-group mr-3 mt-3" style="height: 48px;">
                     @csrf
-                    <select name="month" class="custom-select text-primary text-center"
+                    <select name="month" class="custom-select text-success text-center"
                         style="text-align: center; font-weight: bolder; width: 125px;">
                         @foreach ($monthUnique as $m)
                         @if ($postMonth == $m);
@@ -44,7 +44,7 @@
                         @endif
                         @endforeach
                     </select>
-                    <select name="year" class="custom-select text-primary mr-3"
+                    <select name="year" class="custom-select text-success mr-3"
                         style="text-align: center; font-weight: bolder;">
                         @foreach ($yearUnique as $y)
                         @if ($postYear == $y);
@@ -57,7 +57,7 @@
                         @endif
                         @endforeach
                     </select>
-                    <input type="submit" class="btn btn-sm btn-primary" style="height: 38px;" value="submit">
+                    <input type="submit" class="btn btn-sm btn-success" style="height: 38px;" value="submit">
                 </div>
             </form>
         </div>

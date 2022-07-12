@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Dashboard Penggajian CakeCode')
+@section('title', 'Dashboard Admin Emerald')
 
 @section('head-link')
 <!-- Custom fonts for this template-->
@@ -22,24 +22,7 @@
             <!-- Page Heading -->
             <h1 class="h3 mb-2 text-gray-800">Dashboard</h1>
         </div>
-        <!-- Pending Requests Card Example -->
-        <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-{{ count($komplen) == 0 ? 'success' : 'danger' }} shadow h-100 py-2">
-                <div class="card-body">
-                    <div class="row no-gutters align-items-center">
-                        <div class="col mr-2">
-                            <div class="h1 mb-0 font-weight-bold text-gray-800">{{ count($komplen) }}</div>
-                            <div
-                                class="text-xs font-weight-bold text-{{ count($komplen) == 0 ? 'success' : 'danger' }} text-uppercase mb-1">
-                                Komplain Masuk (Harian)</div>
-                        </div>
-                        <div class="col-auto pb-4">
-                            <i class="fas fa-envelope fa-2x text-gray-300"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-{{ count($absen) == 0 ? 'success' : 'danger' }} shadow h-100 py-2">
                 <div class="card-body">

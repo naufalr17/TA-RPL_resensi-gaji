@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Presensi Karyawan CakeCode')
+@section('title', 'Presensi Karyawan Emerald')
 
 @section('head-link')
 <!-- Custom fonts for this template-->
@@ -23,8 +23,8 @@
     <div class="row align-middle justify-content-between mx-3">
         <div class="col-6">
             <!-- Page Heading -->
-            <h1 class="h3 mb-2 text-gray-800">Presensi karyawan CakeCode</h1>
-            <p class="mb-4">Seluruh data Presensi karyawan CakeCode</p>
+            <h1 class="h3 mb-2 text-gray-800">Presensi karyawan Emerald</h1>
+            <p class="mb-4">Seluruh data Presensi karyawan Emerald</p>
         </div>
         {{-- <td><a href="#" class="status" data-type="select" data-pk="1" data-value="1" data-url="{{ url('api/admin/active') }}"
         data-title="Select status"></a></td> --}}

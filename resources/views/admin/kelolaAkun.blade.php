@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Data Akun CakeCode')
+@section('title', 'Data Akun Emerald')
 
 @section('head-link')
 <!-- Custom fonts for this template-->
@@ -23,8 +23,8 @@
 <div class="container-fluid">
 
     <!-- Page Heading -->
-    <h1 class="h3 mb-2 text-gray-800">Akun karyawan CakeCode</h1>
-    <p class="mb-4">Seluruh akun karyawan yang ada di Database Aplikasi Penggajian CakeCode</p>
+    <h1 class="h3 mb-2 text-gray-800">Akun karyawan Emerald</h1>
+    <p class="mb-4">Seluruh akun karyawan yang ada di Database Aplikasi Penggajian Emerald</p>
     @if (session()->has('deleted'))
     <div class="alert alert-info alert-block">
         <button type="button" class="close" data-dismiss="alert">×</button>

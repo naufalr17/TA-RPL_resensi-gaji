@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Penggajian Karyawan CakeCode')
+@section('title', 'Penggajian Karyawan Emerald')
 
 @section('head-link')
 <!-- Custom fonts for this template-->
@@ -23,8 +23,8 @@
     <div class="row align-middle justify-content-between mx-3">
         <div class="col-6">
             <!-- Page Heading -->
-            <h1 class="h3 mb-2 text-gray-800">Data Penggajian Karyawan CakeCode</h1>
-            <p class="mb-4">Seluruh data Penggajian karyawan yang ada di Database Aplikasi Penggajian CakeCode</p>
+            <h1 class="h3 mb-2 text-gray-800">Data Penggajian Karyawan Emerald</h1>
+            <p class="mb-4">Seluruh data Penggajian karyawan yang ada di Database Aplikasi Penggajian Emerald</p>
         </div>
         {{-- <td><a href="#" class="status" data-type="select" data-pk="1" data-value="1" data-url="{{ url('api/admin/active') }}"
         data-title="Select status"></a></td> --}}
@@ -136,7 +136,7 @@
                                             <div class="row">
                                                 <div class="col-9 pl-5">
                                                     <h2 class="text-left text-dark font-weight-bold mb-0 mt-1">
-                                                        CakeCode
+                                                        Emerald
                                                     </h2>
                                                     <h4 class="text-left text-dark">learn code with
                                                         some cake</h4>
@@ -344,7 +344,7 @@
                                             <div class="row">
                                                 <div class="col-9 pl-5">
                                                     <h2 class="text-left text-dark font-weight-bold mb-0 mt-1">
-                                                        CakeCode
+                                                        Emerald
                                                     </h2>
                                                     <h4 class="text-left text-dark">learn code with
                                                         some cake</h4>
