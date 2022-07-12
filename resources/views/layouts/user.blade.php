@@ -21,11 +21,11 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <img src="{{ URL::asset('img/logo.png') }}" alt="CakeCode" width="100">
+                <img src="{{ URL::asset('img/logo.png') }}" alt="Emerald" width="100">
             </a>
 
             <!-- Nav Item - Pages Collapse Menu -->
@@ -61,13 +61,6 @@
             </li>
 
             <hr class="sidebar-divider my-0">
-
-            <!-- Nav Item - Komplaint -->
-            <li class="nav-item {{ (request()->is('komplain*')) ? 'active' : '' }}">
-                <a class="nav-link" href="{{ url('komplain') }}">
-                    <i class="fas fa-fw fa-envelope"></i>
-                    <span>Komplain</span></a>
-            </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
