@@ -20,11 +20,11 @@
     <div id="wrapper" style="position:relative;">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordiond" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordiond" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <img src="{{ URL::asset('img/logo.png') }}" alt="CakeCode" width="100">
+                <img src="{{ URL::asset('img/logo.png') }}" alt="Emerald" width="100">
             </a>
 
             <!-- Divider -->
@@ -110,12 +110,7 @@
 
             <hr class="sidebar-divider my-0">
 
-            <!-- Nav Item - Charts -->
-            <li class="nav-item {{ (request()->is('admin/komplain*')) ? 'active' : '' }}">
-                <a class="nav-link" href="{{ url('admin/komplain') }}">
-                    <i class="fas fa-fw fa-envelope"></i>
-                    <span>Komplain</span></a>
-            </li>
+            
 
             <hr class="sidebar-divider">
 
@@ -154,7 +149,7 @@
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
-                        Learn Code With Some Cake~
+                        Halaman Admin
 
                     </ul>
 
@@ -170,7 +165,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; CakeCode 2019</span>
+                        <span>Copyright &copy; Emerald.co, Ltd</span>
                     </div>
                 </div>
             </footer>

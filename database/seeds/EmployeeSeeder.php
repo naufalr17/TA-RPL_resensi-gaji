@@ -17,9 +17,9 @@ class EmployeeSeeder extends Seeder
 
         Employee::updateOrCreate([
             'id' => 2,
-            'full_name' => 'M. Iqbal Alifudin',
-            'address' => '20-23 Kamiyamachō Shibuya City Tōkyō-to 150-0047 Jepang',
-            'phone' => '08123456789',
+            'full_name' => 'Muhammad Naufal Rizki',
+            'address' => 'Srondol Wetan, Indonesia',
+            'phone' => '08888888888',
             'marital_status' => 0,
             'number_of_children' => 0,
             'profile_pic' => 'default.png',
@@ -30,9 +30,46 @@ class EmployeeSeeder extends Seeder
 
         Employee::updateOrCreate([
             'id' => 3,
-            'full_name' => 'Ahmad Nurul Fiqri',
-            'address' => 'Meikarta, Indonesia',
-            'phone' => '08912345678',
+            'full_name' => 'Bagas Fedlian Wicaksana',
+            'address' => 'Jakarta, Indonesia',
+            'phone' => '082122233312',
+            'marital_status' => 1,
+            'number_of_children' => 3,
+            'profile_pic' => 'default.png',
+            'user_id' => 3,
+            'position_id' => 2,
+            'created_at' => $z
+        ]);
+
+        Employee::updateOrCreate([
+            'id' => 4,
+            'full_name' => 'Chrismanuel Cahya Maramis',
+            'address' => 'Surabaya, Jawa Timur, Indonesia',
+            'phone' => '08213764612',
+            'marital_status' => 1,
+            'number_of_children' => 3,
+            'profile_pic' => 'default.png',
+            'user_id' => 3,
+            'position_id' => 2,
+            'created_at' => $z
+        ]);
+        Employee::updateOrCreate([
+            'id' => 5,
+            'full_name' => 'Dimas Satriyo Nugroho',
+            'address' => 'Nanggroe Aceh Darussalam',
+            'phone' => '62822233312',
+            'marital_status' => 1,
+            'number_of_children' => 3,
+            'profile_pic' => 'default.png',
+            'user_id' => 3,
+            'position_id' => 2,
+            'created_at' => $z
+        ]);
+        Employee::updateOrCreate([
+            'id' => 6,
+            'full_name' => 'Nandar Sutrisno',
+            'address' => 'Samarinda, Indonesia',
+            'phone' => '082122839312',
             'marital_status' => 1,
             'number_of_children' => 3,
             'profile_pic' => 'default.png',

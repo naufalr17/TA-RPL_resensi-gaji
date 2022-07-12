@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Login Aplikasi Penggajian CakeCode</title>
+  <title>Login Aplikasi Penggajian Emerald</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -23,8 +23,8 @@
 </head>
 
 <body
-  style="background-image: url({{ URL::asset('img/auth_background.jpg') }}); background-repeat : no-repeat; background-position: center bottom; background-size: cover;">
-
+  {{-- style="background-image: url({{ URL::asset('img/auth_background.jpg') }}); background-repeat : no-repeat; background-position: center bottom; background-size: cover;"> --}}
+>
   <div class="container">
 
     <!-- Outer Row -->
@@ -47,7 +47,7 @@
               <form class="user" action="/login" method="post">
                 @csrf
                 <div class="form-group">
-                  <input type="text" maxlength="8"
+                  <input type="text" maxlength="15"
                     class="@error('nip') is-invalid @enderror form-control form-control-user text-center"
                     id="exampleInputEmail" placeholder="NIP" name="nip" value="{{ old('nip') }}">
                   @error('nip')
@@ -61,7 +61,7 @@
                     class="@error('password') is-invalid @enderror form-control form-control-user text-center"
                     id="exampleInputPassword" placeholder="Password" name="password">
                   <div class="valid-feedback text-center">
-                    Default password : cakecode
+                    Default user pass : admin
                   </div>
                   @error('password')
                   <div class="invalid-feedback text-center">
@@ -75,10 +75,10 @@
                     <label class="custom-control-label" for="customCheck">Remember Me</label>
                   </div>
                 </div>
-                <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
+                <button type="submit" class="btn btn-success btn-user btn-block ">Login</button>
                 <hr>
                 <div class="valid-feedback text-center d-block text-info">
-                  Default password : cakecode
+                  Default user pass : admin
                 </div>
               </form>
             </div>
